@@ -63,6 +63,19 @@ const DATASET_TO_MODELS = {
             },
         ],
     },
+    folktales: {
+        name: 'Folktales',
+        models: [
+            {
+                name: 'Longformer Embeddings',
+                path: './data/folktales/folktales_preprocessed_LF.json'
+            },
+            {
+                name: 'sBERT Embeddings',
+                path: './data/folktales/folktales_preprocessed_sBERT.json'
+            },
+        ],
+    },
 };
 
 const DISTANCE_METRICS = {
